@@ -1,0 +1,44 @@
+/* cormorant-upright-300 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/resources/Cormorant-Upright/CormorantUpright-Light.ttf') format('truetype');
+}
+
+/* cormorant-upright-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/resources/Cormorant-Upright/CormorantUpright-Regular.ttf') format('truetype');
+}
+
+/* cormorant-upright-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/resources/Cormorant-Upright/CormorantUpright-Medium.ttf') format('truetype');
+}
+
+/* cormorant-upright-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/resources/Cormorant-Upright/CormorantUpright-SemiBold.ttf') format('truetype');
+}
+
+/* cormorant-upright-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/resources/Cormorant-Upright/CormorantUpright-Bold.ttf') format('truetype');
+}

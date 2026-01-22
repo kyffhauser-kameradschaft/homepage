@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "manifest.ts",
+    "pwa-assets.config.ts",
+    "vite.config.ts",
+    "generate-post-index.ts"
+  ]
+}
