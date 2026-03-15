@@ -39,7 +39,7 @@ export default function () {
 							Start
 						</Button>
 
-						<Button size="large" component={Link} to="/termine" variant="text" color="inherit">
+						<Button size="large" component={Link} to="/veranstaltungen" variant="text" color="inherit">
 							Veranstaltungen
 						</Button>
 					</Stack>

@@ -10,10 +10,10 @@ export default function () {
 	return (
 		<>
 			<Helmet>
-				<title>Termine</title>
-				<meta name="description" content="Die nächsten Termine des Stammtisches" />
+				<title>Veranstaltungen</title>
+				<meta name="description" content="Die nächsten Veranstaltungen des Vereins" />
 
-				<link rel="canonical" href="https://kyffhäuser-kameradschaft.de/termine" />
+				<link rel="canonical" href="https://kyffhäuser-kameradschaft.de/veranstaltungen" />
 
 				<script type="application/ld+json">
 					{JSON.stringify({
@@ -23,8 +23,8 @@ export default function () {
 							{
 								"@type": "ListItem",
 								"position": 1,
-								"name": "Termine",
-								"item": "https://kyffhäuser-kameradschaft.de/termine"
+								"name": "Veranstaltungen",
+								"item": "https://kyffhäuser-kameradschaft.de/veranstaltungen"
 							}
 						]
 					})}
@@ -35,10 +35,10 @@ export default function () {
 				<Paper>
 					<Stack spacing={4}>
 						<Typography variant="h3" fontWeight="bold" textAlign="center" component="span" data-nosnippet>
-							Nächste Termine
+							Veranstaltungen
 						</Typography>
 
-						<EventList file="/download/termine.ics" />
+						<EventList file="/download/veranstaltungen.ics" />
 					</Stack>
 				</Paper>
 			</Container>

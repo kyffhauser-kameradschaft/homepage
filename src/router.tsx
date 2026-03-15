@@ -12,7 +12,7 @@ export default function () {
 			<Routes>
 				<Route element={<DefaultLayout />}>
 					<Route index element={<ViewLatestPosts />} />
-					<Route path="/termine" element={<ViewEvents />} />
+					<Route path="/veranstaltungen" element={<ViewEvents />} />
 
 					<Route path="/blog">
 						<Route path=":year">

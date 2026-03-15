@@ -49,8 +49,8 @@ const manifest: Partial<ManifestOptions> = {
 	],
 	"shortcuts": [
 		{
-			name: "Termine",
-			url: "/termine"
+			name: "Veranstaltungen",
+			url: "/veranstaltungen"
 		}
 	],
 	screenshots: []
