@@ -9,7 +9,7 @@ import treeKill from "tree-kill"
 const OUTPUT_DIR = path.join("dist", "static")
 const VITE_PREVIEW_PORT = 4173
 
-const STATIC_ROUTES = [ "/", "/termine" ]
+const STATIC_ROUTES = [ "/", "/veranstaltungen" ]
 
 const BROWSER_DEVICE = devices["iPhone 16 Pro"] ?? devices["iPhone 14 Pro"]
 
