@@ -18,10 +18,10 @@ export default function () {
 					<Stack component="span" data-nosnippet direction="row" width="100%" alignItems="center" justifyContent="center">
 						<img
 							draggable={false}
-							src="/logo.png"
+							src="/logo_white.png"
 							alt="Kyffhäuser Kameradschaft Berleburg 1871 e.V."
 							style={{
-								height: tablet ? "80px" : "100px"
+								height: handy ? "90px" : tablet ? "110px" : "115px"
 							}}
 						/>
 

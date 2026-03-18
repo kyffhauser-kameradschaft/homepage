@@ -8,7 +8,7 @@ const options: ThemeOptions = {
 	palette: {
 		primary: {
 			main: "#0b8513",
-			contrastText: "#000000"
+			contrastText: "#FFFFFF"
 		},
 		secondary: {
 			main: "#121212",
@@ -48,10 +48,9 @@ const options: ThemeOptions = {
                             url("/background.webp") type("image/webp"),
                             url("/background.jpg") type("image/jpeg")
                         );`,
-						backgroundRepeat: "no-repeat",
+						backgroundRepeat: "repeat",
 						backgroundAttachment: "fixed",
 						backgroundPosition: "center center",
-						backgroundSize: "cover",
 						opacity: 0.75,
 						top: 0,
 						bottom: 0,
